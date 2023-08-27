@@ -1,0 +1,401 @@
+/* fonts
+	font-family: 'Roboto', sans-serif;
+*/
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+	
+/* common code start */
+
+body{
+	margin: 0px auto;
+}
+html{
+	font-family: 'Roboto', sans-serif;
+}
+.m_container-fluid{
+	width: 100%;
+	background: #fff;
+}
+.m_container{
+	width: 88%;
+	margin: 0px auto;
+}
+.m_d-flex{
+	display: flex;
+}
+a{
+	text-decoration: none;
+
+}
+a, span{
+	display: inline-block;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+body, h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	
+	font-size: 65px;
+	font-weight: 800;
+	line-height: 1.5;
+}
+h3{
+	
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+p{
+	
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.m_title{
+	margin-bottom: 40px;
+	text-align: center;
+	color: #333333;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	position: relative;
+	padding: 40px;
+}
+.m_title::after{
+	content: '';
+	position: absolute;
+	width: 120px;
+	height: 3px;
+	background: #333333;
+	left: 500px;
+}
+
+/* common code end */
+
+/* header section start */
+
+header.m_container-fluid{
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/banner.jpg)no-repeat center;
+	height: 770px;
+}
+header img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+/* nav section start */
+
+.m_navbar{
+	margin-bottom: 200px;
+	justify-content: space-between;
+}
+.m_navbar-brand{
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+	text-decoration: none;
+	margin-top: 30px;
+}
+.m_navbar-brand i{
+	color: #30C39E;
+	padding: 10px;
+}
+.m_navbar-nav a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+}
+.m_navbar-nav a:hover{
+	color: #30C39E;
+}
+.m_navbar-nav span{
+	color: #30C39E;
+}
+.m_navbar-nav{
+	margin-top: 15px;
+}
+.m_navbar-nav li{
+	padding: 20px 10px;
+}
+
+/* nav section end */
+
+.m_header-content h1{
+	color: #30C39E;
+	text-shadow: 0px 2px #585861;
+}
+.m_header-content h3{
+	color: #fff;
+}
+.m_header-content p{
+	color: #fff;
+	margin-top: 10px;
+}
+.m_header-content a{
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 12px 35px;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+.m_header-content a:hover{
+	background: #30C39E;
+	border: 2px solid #30C39E;
+}
+
+/* header section end */
+
+/* about section start */
+.m_aboutme-container{
+	background: #fff;
+	width: 100%;
+}
+
+.m_aboutme-content{
+	width: 30%;
+	padding: 0px 30px;
+}
+.m_aboutme-poster{
+	width: 30%;
+}
+.m_aboutme-poster img{
+	width: 100%;
+	height: 90%;
+}
+.m_aboutme-content h3{
+	color: #333333;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.5;
+	padding-bottom: 10px;
+}
+.m_percentage{
+	justify-content: space-between;
+}
+.m_aboutme-content p{
+	color: #666666;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 2;
+	padding-bottom: 20px; 
+}
+.m_aboutme-content a{
+	color: #fff;
+	background: #0A8EA0;
+	border: 1px solid #0A8EA0;
+	padding: 8px 38px;
+	border-radius: 4px;
+}
+.m_aboutme-content i{
+	padding: 8px 8px;
+}
+.m_aboutme-content a:hover{
+	color: #000;
+	background: #fff;
+	border: 1px solid #000;
+}
+/* about section end */
+
+/* services section start */
+.m_services-section{
+	color: #fff;
+	background: #30C39E;
+}
+.m_services-section.title::after{
+	background: #fff;
+}
+.m_services-content{
+	width: 100%;
+}
+.m_services-blog{
+	width: 30%;
+}
+.m_services-blog h3{
+	font-size: 25px;
+	font-weight: 200;
+	line-height: 2;
+}
+.m_services-blog i{
+	padding: 10px 10px;
+}
+.m_services-blog p{
+	color: #eeeeee;
+	line-height: 2;
+}
+.m_services-blog1{
+	padding: 20px;
+}
+.m_services-blog2{
+	padding: 20px;
+}
+/* services section end */
+
+/*`*/
+
+.m_blog{
+	background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../img/blog1.jpg);
+	background-size: cover;
+}
+.m_blog_head{
+	font-size: 45px;
+	font-weight: 700;
+	color: #ffff;
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+.m_blog_contant h4{
+	font-size: 28px;
+	font-weight: 700;
+	color: #ffff;
+	padding: 50px;
+}
+.m_blog_contant p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffff;
+	line-height: 30px;
+	padding-right: 900px;
+	margin-top: 50px;
+	padding: 50px, 50px;
+}
+.m_blog_cart{
+	border: 1px solid #ffff;
+	background-color: #FFFFFF;
+	margin: 0px 40px;
+	padding: 30px;
+	margin-bottom: 100px;
+}
+.m_blog_cart h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: #333333;
+	padding-top: 5px;
+}
+.m_blog_cart p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #999999;
+	line-height: 28px;
+}
+.m_blog_cart a{
+	color: #0a8ea0;
+	font-size: 15px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.m_cart_para p{
+	border: 0px solid #ffff;
+	padding: 5px 10px;
+	background-color: #30C39E;
+	color: #ffff;
+	font-size: 13px;
+	display: inline-block;
+}
+.m_blog_cart_section{
+	margin: 50px 0px;
+}
+/* Blog section end*/
+
+/* project section start */
+.m_project-details{
+	width: 100%;
+}
+.m_single-project-card img{
+	width: 90%;
+	padding: 20px 0px;
+}
+/* project section end */
+
+
+/* contact section start*/
+.m_contact_part{
+	
+}
+.m_contact_sec{
+	width: 50%;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	color: #333333;
+	margin-top: 50px;
+}
+.m_contact_map address{
+	font-size: 16px;
+	font-weight: 400;
+	color: #666666;
+	line-height: 28px;
+	margin-top: 10px;
+}
+.m_contact_map p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #666666;
+	line-height: 28px;
+	margin-top: 10px;
+}
+.m_contact_form h3{
+	font-size: 22px;
+	font-weight: 400;
+	color: #333333;
+	line-height: 28px;
+	margin-left: 90px;
+}
+.m_form_main p{
+	font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 20px;
+    margin: 74px 24px;	
+}
+.m_form_main input{
+	margin: 23px 30px;
+	padding: 10px 200px;
+}
+.m_form_main input.message{
+	padding-bottom: 100px;
+}
+.m_form_main button{
+	padding: 20px 50px;
+	border-radius: 5px;
+	margin-left: 500px;
+	color: white;
+	background: #0A8EA0;
+	margin-bottom: 50px;
+}
+.m_form_main button:hover{
+	border-color: black;
+	background-color: white;
+	color: black;
+}
+/* contact section end*/
+
+
+/* footer_part start*/
+footer{
+	background-color: #191919;
+}
+.m_icon{
+	text-align: center;
+}
+footer i{
+	font-size: 30px;
+	text-align: center;
+	border: 0px solid #c2c2c2c2;
+	padding: 20px;
+	margin-top: 50px; 
+}
+footer p{
+	margin: 40px 0px;
+	color: white;
+	display: inline-block;
+	margin-left: 450px;
+}
+/* footer_part end*/
